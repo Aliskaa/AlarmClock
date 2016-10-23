@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#D1C4E9"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonHour"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text="@string/btn_hour"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:textColor="#4CAF50"
+        android:textSize="35sp"
+        android:id="@+id/msgDate"/>
+
+    <RadioGroup
+        android:id="@+id/radioWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:text="L"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioMonday"
+            android:textColor="#4CAF50"
+            android:textSize="30sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioTuesday"
+            android:textColor="#4CAF50"
+            android:textSize="30sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="M"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioWednesday"
+            android:textColor="#4CAF50"
+            android:textSize="30sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="J"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioThursday"
+            android:textColor="#4CAF50"
+            android:textSize="30sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="V"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioFriday"
+            android:textColor="#4CAF50"
+            android:textSize="30sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="S"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioSaturday"
+            android:textColor="#4CAF50"
+            android:textSize="30sp"
+            android:layout_weight="1" />
+
+        <RadioButton
+            android:text="D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioSunday"
+            android:textColor="#4CAF50"
+            android:textSize="30sp"
+            android:layout_weight="1" />
+    </RadioGroup>
+
+    <TextView
+        android:text="Theme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:textColor="#4CAF50"
+        android:textSize="50sp"
+        android:id="@+id/textViewTheme" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="241dp">
+
+        <RadioGroup
+            android:id="@+id/radioTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top">
+
+            <RadioButton
+                android:id="@+id/radioForest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:textSize="35sp"
+                android:text="@string/radio_foret" />
+
+            <RadioButton
+                android:id="@+id/radioBeach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:textSize="35sp"
+                android:text="@string/radio_plage" />
+
+            <RadioButton
+                android:id="@+id/radioBeach5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:textSize="35sp"
+                android:text="@string/radio_plage" />
+
+            <RadioButton
+                android:id="@+id/radioBeach4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:textSize="35sp"
+                android:text="@string/radio_plage" />
+
+            <RadioButton
+                android:id="@+id/radioBeach3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:textSize="35sp"
+                android:text="@string/radio_plage" />
+
+            <RadioButton
+                android:id="@+id/radioBeach2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:textSize="35sp"
+                android:text="@string/radio_plage" />
+
+            <RadioButton
+                android:id="@+id/radioBeach1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:textSize="35sp"
+                android:text="@string/radio_foret" />
+
+            <RadioButton
+                android:id="@+id/radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:textSize="35sp"
+                android:text="@string/radio_foret" />
+
+        </RadioGroup>
+    </ScrollView>
+
+    <Button
+        android:text="@string/btn_setting_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:id="@+id/buttonSend" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:textColor="#4CAF50"
+        android:textSize="35sp"
+        android:id="@+id/msgHour"/>
+
+</GridLayout>

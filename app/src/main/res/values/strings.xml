@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"> AlarmClock </string>
+
+    <!-- BOUTONS -->
+    <string name="btn_start"> Start </string>
+    <string name="btn_stop"> Stop </string>
+    <string name="btn_setting"> Setting </string>
+    <string name="btn_date"> Date </string>
+    <string name="btn_hour"> Time </string>
+    <string name="btn_setting_send"> Send </string>
+
+    <!-- RADIOS -->
+    <string name="radio_foret"> Forest </string>
+    <string name="radio_plage"> Beach </string>
+</resources>
